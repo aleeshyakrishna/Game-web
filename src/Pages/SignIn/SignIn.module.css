@@ -1,0 +1,96 @@
+.login_btm {
+    margin-top: 80px;
+  }
+  
+  .error_input {
+    animation: shake 0.3s forwards;
+    animation-iteration-count: 4;
+    border: 2px solid red;
+    /* color: red; */
+    /* background-color: #256c55; */
+  }
+  /* .signup_form span {
+    color: red;
+    margin-left: 5px;
+  } */
+  .inside_sigup_from {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin: auto auto;
+  }
+  .signin_top img {
+    width: 25%;
+  }
+  .form_input_a,
+  .form_input_b {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    /* border: 1px solid black; */
+    width: 20%;
+    margin-left: 40%;
+    
+  }
+  .form_input_a,
+  .form_input_b label {
+    /* padding: 2px; */
+    font-size: 20px;
+   
+  }
+  .form_input_a input,
+  .form_input_b input {
+    padding: 10px;
+    border-radius: 5rem;
+    /* width: 50%; */
+    border: 1px solid black;
+    /* height:1cm; */
+  }
+
+  .signup_aggry_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .signup_aggry_form input {
+    position: absolute;
+    margin-top: 21px;
+    /* width: 120px; */
+  }
+  .signup_aggry_form button {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+  }
+  @keyframes shake {
+    25% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(-5px);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX-(5px);
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .login_btm {
+      margin-top: 80px;
+    }
+    .other_signup img {
+      width: 400px;
+      margin-top: 33%;
+      margin-left: 54%;
+      z-index: -1;
+    }
+  }
